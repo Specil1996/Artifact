@@ -1,0 +1,13 @@
+引用方法
+<repositories>
+    <repository>
+      <id>specil-mvn</id>
+      <url>https://raw.githubusercontent.com/Specil1996/Artifact/master/centre</url>
+    </repository>
+  </repositories>
+
+  <dependency>
+      <groupId>cn.specil</groupId>
+      <artifactId>Artifact</artifactId>
+      <version>1.0.0</version>
+    </dependency>
