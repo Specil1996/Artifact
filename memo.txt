@@ -1,4 +1,5 @@
 引用方法
+码云同步
 <repositories>
     <repository>
       <id>specil-mvn</id>
@@ -11,3 +12,4 @@
       <artifactId>Artifact</artifactId>
       <version>1.0.0</version>
     </dependency>
+
