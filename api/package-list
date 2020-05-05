@@ -1,0 +1,16 @@
+cn.specil.artifact.encoder
+cn.specil.artifact.file
+cn.specil.artifact.file.picture
+cn.specil.artifact.formatting
+cn.specil.artifact.generating
+cn.specil.artifact.limit.douyin.api
+cn.specil.artifact.limit.douyin.model
+cn.specil.artifact.limit.test
+cn.specil.artifact.limit.tuchong
+cn.specil.artifact.model.backtrack
+cn.specil.artifact.model.backtrack.keypair
+cn.specil.artifact.model.enumc
+cn.specil.artifact.model.exception
+cn.specil.artifact.model.exhaustion
+cn.specil.artifact.net
+cn.specil.artifact.validator
