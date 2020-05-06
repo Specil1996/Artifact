@@ -11,7 +11,8 @@
 
     <groupId>cn.specil</groupId>
     <artifactId>Artifact</artifactId>
-<!--    <packaging>pom</packaging>-->
+    <version>1.0.11</version>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +23,7 @@
     <distributionManagement>
         <repository>
             <id>specil-mvn</id>
-            <url>file:D:/specil_works/Artifact/</url>
+            <url>file:F:/Specil_Works/IDEA Work/Artifact/</url>
         </repository>
     </distributionManagement>
 
