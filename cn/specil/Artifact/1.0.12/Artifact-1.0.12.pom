@@ -2,16 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
+<!--    <parent>
         <artifactId>SpecilMaven</artifactId>
         <groupId>cn.specil</groupId>
         <version>1.0.1</version>
-    </parent>
+    </parent>-->
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.specil</groupId>
     <artifactId>Artifact</artifactId>
-    <version>1.0.11</version>
+    <version>1.0.12</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -39,38 +39,45 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
+            <version>4.5.0</version>
         </dependency>
 
         <!--一种无头浏览器，旨在用于测试基于Web的应用程序。-->
         <dependency>
             <groupId>net.sourceforge.htmlunit</groupId>
             <artifactId>htmlunit</artifactId>
+            <version>2.39.1</version>
         </dependency>
 
         <!--jsoup是一个用于处理实际HTML的Java库。它提供了使用DOM，CSS和类似jquery的最佳方法来提取和处理数据的非常方便的API。-->
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
+            <version>1.13.1</version>
         </dependency>
 
         <!--  IO库包含实用程序类，流实现，文件过滤器，文件比较器，字节序转换类等。 -->
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>commons-io</groupId>-->
+<!--            <artifactId>commons-io</artifactId>-->
+<!--            <version>2.6</version>-->
+<!--        </dependency>-->
 
         <!--Jackson的常规数据绑定功能：适用于核心流API-->
         <!-- 包括JSON处理器<jackson-core>（JSON解析器+ JSON生成器） -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+            <version>2.10.1</version>
         </dependency>
 
         <!-- 阿里巴巴Fastjson是用Java编写的JSON处理器（JSON解析器+ JSON生成器） -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
