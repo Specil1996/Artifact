@@ -11,7 +11,7 @@
 
     <groupId>cn.specil</groupId>
     <artifactId>Artifact</artifactId>
-    <version>1.0.15</version>
+    <version>1.0.15-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -21,10 +21,10 @@
     </properties>
 
     <distributionManagement>
-        <repository>
+       <!-- <repository>
             <id>specil-mvn</id>
             <url>file:D:/specil_works/Artifact/</url>
-        </repository>
+        </repository>-->
         <!--快照 -SNAPSHOT-->
         <snapshotRepository>
             <id>specil-mvn</id>
